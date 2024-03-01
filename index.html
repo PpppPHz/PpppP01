@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Say Hii to Billu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-div">
+        <img src="img1.png" class="img-1">
+        <div id="central-div">
+            <h1>WILL you meet me at the rooftop Tomorrow??</h1>
+            <h3>(( I'm Cute ))</h3>
+            <button id="btn-yes" class="opt-button">YES</button>
+            <button id="btn-no" class="opt-button">NO</button>
+        </div>
+        <p>Stupid Goldfish &#8594;<img src="img2.png" class="img-2"></p>
+    </div>
+    <script>
+        const moveButton=document.getElementById('btn-no');
+        const yesbutton=document.getElementById('btn-yes');
+        const centralDiv=document.getElementById('central-div');
+        yesbutton.addEventListener('click',function(){
+            centralDiv.innerHTML="<h1>Okay<h1>";
+        });
+        moveButton.addEventListener('mouseenter', function () {
+            const moveAmount = 100;
+            this.style.transform = `translateY(${moveAmount}px)`;
+        });
+
+        moveButton.addEventListener('mouseleave', function () {
+            this.style.transform = 'translateY(0)';
+        });
+    </script>
+</body>
+
+</html>

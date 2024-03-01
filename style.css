@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=The+Girl+Next+Door&display=swap');
+
+body{
+    font-family: "The Girl Next Door", cursive;
+    background-image: url(bg1.png);
+    align-content: center;
+}
+.main-div{
+    margin-top: 3%;
+    text-align: center;
+}
+.img-2{
+    border-top: 10px solid rgb(122, 193, 252);
+    border-bottom: 10px solid rgb(122, 193, 252);
+    border-radius: 200px;
+    display: block;
+    height: 10rem;
+}
+.img-1{
+    border-top: 7px solid rgb(122, 193, 252);
+    border-bottom: 7px solid rgb(122, 193, 252);
+    border-radius: 60px;
+    height: 10rem;
+}
+.opt-button{
+    width: 8rem;
+    border-radius: 20px;
+    border: 2px rgb(49, 162, 255) solid;
+    background-color: rgba(122, 193, 252, 0.555);
+    margin: 1rem;
+    padding: 1rem;
+}
+.opt-button:hover{
+    transform: scale(1.1);
+    background-color: rgb(122, 193, 252);
+}
+p{
+    font-weight: 900;
+    font-size: larger;
+    margin-left: 50rem;
+    margin-top: 4rem;
+    display: flex;
+}
