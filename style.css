@@ -9,6 +9,13 @@ body{
     margin-top: 3%;
     text-align: center;
 }
+h1{
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: white;
+    border-top: 7px solid rgb(122, 193, 252);
+    border-right: 7px solid rgb(122, 193, 252);
+}
 .img-2{
     border-top: 10px solid rgb(122, 193, 252);
     border-bottom: 10px solid rgb(122, 193, 252);
